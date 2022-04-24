@@ -1,10 +1,37 @@
-canvas{
-    display: block;
-    position: absolute;
-    border: 5px solid  #009BFF;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  border: 3px solid #3bceac;
+}
+#p1
+{
+  color:#ee4266;
+}
+#p2
+{
+  color:#ee4266;
+}
+#wynik{
+  color:#ffd23f;
+}
+.container h1{
+  color:#ee4266;
+  margin: 0 auto;
+  width: 500px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.wynik{
+  display: flex;
 }
